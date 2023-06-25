@@ -8,19 +8,19 @@ hide_topic_list_views_count:
   type: bool
   default: false
   description:
-    en: "Hide number of topic views in all topic list filter pages."
+    en: "Hide the number of topic views in all topic list filter pages."
 
 hide_replies_count:
   type: bool
   default: false
   description: 
-    en: "Hide the replies count in the Topic Stats column on the Category homepage."
+    en: "Hide the number of replies in the Topic Stats column on the Category homepage."
 
-hide_topic_list_post_count:
+hide_topic_list_replies_count:
   type: bool
   default: false
   description:
-    en: "Hide number of topic posts in in all topic list filter pages."
+    en: "Hide the number of replies in all topic list filter pages."
 
 hide_time_since_last_activity:
   type: bool
