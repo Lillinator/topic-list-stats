@@ -38,4 +38,4 @@ hide_category_topic_stats:
   type: bool
   default: false
   description:
-    en: "Hide the topic stats from the category list on the category homepage."
+    en: "Hide the topic stats column from the category list on the category homepage."
