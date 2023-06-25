@@ -60,7 +60,7 @@
 
 // * font size and weight of the topic views count * //
 
-.topic-list .views {
+.topic-list .num.views {
   font-weight: $topic_views_count_font_weight;
   font-size: #{$topic_views_count_font_size}px;
 }
