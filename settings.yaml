@@ -81,7 +81,7 @@ topic_replies_count_font_size:
   description: 
     en: "Topic replies count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
 
-topic_views_replies_font_weight:
+topic_replies_font_weight:
   type: enum
   default: normal
   choices:
