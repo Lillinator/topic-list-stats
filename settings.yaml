@@ -39,3 +39,79 @@ hide_category_topic_stats:
   default: false
   description:
     en: "Hide the topic stats column from the category list on the category homepage."
+
+topic_views_count_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Topic views count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+
+topic_views_count_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Font weight of the topic views count if show topic views count setting is enabled. Leave blank to use current default."
+
+topic_replies_count_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Topic replies count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+
+topic_views_replies_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Font weight of the topic replies count if show topic views count setting is enabled. Leave blank to use current default."
+
+time_since_latest_activity_font_size:
+  type: enum
+  default: ""
+  choices:
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+  description: 
+    en: "Time since last activity font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+
+time_since_latest_activity_font_weight:
+  type: enum
+  default: normal
+  choices:
+    - normal
+    - bold
+  description: 
+    en: "Time since last activity font weight if show topic views count setting is enabled. Leave blank to use current default."
+
