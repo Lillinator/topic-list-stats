@@ -1,6 +1,6 @@
 // * hiding or showing topic stats in the main category view and topic filter list views * //
 
-@if $show_topic_views_count == "false" {
+@if $hide_topic_views_count == "true" {
   .above-latest-topic-list-item-post-count-outlet {
   display: none;
   }
