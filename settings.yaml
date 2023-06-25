@@ -1,0 +1,17 @@
+hide_topic_list_activity:
+  type: bool
+  default: false
+  description:
+    en: "Hide the time since last activty in the Topic list Stats column."
+
+hide_topic_list_views:
+  type: bool
+  default: false
+  description:
+    en: "Hide number of views in the Topic list Stats column."
+
+hide_topic_list_posts:
+  type: bool
+  default: false
+  description:
+    en: "Hide number of topic posts in the Topic list Stats column."
