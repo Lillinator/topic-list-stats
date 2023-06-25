@@ -1,10 +1,14 @@
 // * hiding or showing topic stats in the main category view and topic filter list views * //
 
+// * hide or show topic views count on category homepage * //
+
 @if $hide_topic_views_count == "true" {
   .above-latest-topic-list-item-post-count-outlet {
   display: none;
   }
 }
+
+// * hide or show topic views count on topic filter list pages * //
 
 @if $hide_topic_list_views_count == "true" {
   .topic-list .views {
@@ -12,11 +16,15 @@
   }
 }
 
+// * hide or show topic replies count on category homepage * //
+
 @if $hide_replies_count == "true" {
   .latest-topic-list .posts-map {
   display: none;
   }
 }
+
+// * hide or show topic replies count on topic filter list pages * //
 
 @if $hide_topic_list_replies_count == "true" {
   .topic-list .posts {
@@ -24,11 +32,15 @@
   }
 }
 
+// * hide or show topic time since last activity on category homepage * //
+
 @if $hide_time_since_last_activity == "true" {  
   .topic-last-activity {
   display: none;
  }
 }
+
+// * hide or show topic time since last activity on topic filter list pages * //
 
 @if $hide_topic_list_time_since_last_activity == "true" {
   .topic-list .activity {
@@ -36,35 +48,44 @@
   }
 }
 
+// * hide or show topic stats column in category list on category homepage * //
+
 @if $hide_category_topic_stats == "true" {
 .category-list .topics {
     display: none;
   }
 }
 
-
 // * formatting the stats * //
 
-//.latest-topic-list .posts-map, .top-topic-list .posts-map {
-//  font-weight: $replies_count_font_weight;
-//  font-size: #{$replies_count_font_size}px;
+// * font size and weight of the topic views count * //
+
+.above-latest-topic-list-item-post-count-outlet {
+  font-weight: $topic_views_count_font_weight;
+  font-size: #{$topic_views_count_font_size}px;
+//  color: $topic_views_count_font_color;
+}
+
+// * font size and weight of the topic replies count * //
+
+.latest-topic-list .posts-map, .top-topic-list .posts-map {
+  font-weight: $replies_count_font_weight;
+  font-size: #{$replies_count_font_size}px;
 //  color: $replies_count_font_color;
 //  &:hover {
 //  color: $replies_count_hover_color;
 //  }  
-//}
+}
 
-//.latest-topic-list-item .topic-last-activity a {
-//  color: $time_since_latest_activity_font_color;
-//  font-weight: $time_since_latest_activity_font_weight;
-//  font-size: #{$time_since_latest_activity_font_size}px;
+// * font size and weight of the time since last activity * //
+
+.latest-topic-list-item .topic-last-activity a {
+  font-weight: $time_since_latest_activity_font_weight;
+  font-size: #{$time_since_latest_activity_font_size}px;
+//  color: $time_since_latest_activity_font_color;  
 //  &:hover {
 //  color: $time_since_latest_activity_hover_color;
 //  }  
-//}
+}
 
-//.above-latest-topic-list-item-post-count-outlet {
-//  color: $topic_views_count_font_color;
-//  font-weight: $topic_views_count_font_weight;
-//  font-size: #{$topic_views_count_font_size}px;
-//}
+
