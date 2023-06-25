@@ -1,0 +1,17 @@
+@if $hide_topic_list_activity == "true" {
+  .topic-list .activity {
+  display: none;
+  }
+}
+
+@if $hide_topic_list_views == "true" {
+  .topic-list .views {
+      display: none;
+  }
+}
+
+@if $hide_topic_list_posts == "true" {
+  .topic-list .posts {
+    display: none;
+  }
+}
