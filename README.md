@@ -5,3 +5,4 @@ Statistics view settings include:
 * number of topic views
 * number of replies
 * time since latest activity
+* category topic stats
