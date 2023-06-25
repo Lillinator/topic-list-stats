@@ -1,8 +1,8 @@
-show_topic_views_count:
+hide_topic_views_count:
   type: bool
   default: false
   description:
-    en: "Show the total number of views in the Topic Stats column on the Category homepage."
+    en: "Hide the total number of views in the Topic Stats column on the Category homepage."
 
 hide_topic_list_views_count:
   type: bool
