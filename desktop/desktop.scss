@@ -13,7 +13,7 @@
 }
 
 @if $hide_replies_count == "true" {
-  .top-topic-list .posts-map {
+  .latest-topic-list .posts-map, .top-topic-list .posts-map {
   display: none;
   }
 }
