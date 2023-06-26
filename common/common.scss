@@ -2,16 +2,19 @@
 
 @if $hide_all_stats_from_anon == "true" { 
   html.anon {
+    // * desktop view stats * //
     .topic-list .topic-item-stats .num.activity,
+    .topic-list .posts,
     .topic-list .num.posts-map,
     .topic-list .num.views, 
     .topic-list .views,
     .topic-list .activity,
     .topic-last-activity,
     .category-list .topics,
-    .latest-topic-list .posts-map, 
-    .topic-list .posts,
+    // * plugin outlet for views count * //
     .above-latest-topic-list-item-post-count-outlet,
+    // * mobile views stats * //
+    .latest-topic-list .posts-map, 
     .category-list-item>footer, 
     .subcategory-list-item>footer {
           display: none;
