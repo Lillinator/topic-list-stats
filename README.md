@@ -1,4 +1,4 @@
-# Topic-List-View-Stats
+# Topic-List-Stats
 Controls showing or hiding the topic stats in Discourse categorty homepage and topic list view filter pages. Also allows text size and weight formatting. 
 
 Statistics view settings include:
