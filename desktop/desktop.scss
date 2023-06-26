@@ -1,6 +1,6 @@
 // * hiding or showing topic stats in the main category view and topic filter list views * //
 
-// * hide or show topic views count on category homepage * //
+// * hide or show topic views count * //
 
 @if $hide_topic_views_count == "true" {
   .above-latest-topic-list-item-post-count-outlet,
@@ -9,7 +9,7 @@
   }
 }
 
-// * hide or show topic replies count on category homepage * //
+// * hide or show topic replies count * //
 
 @if $hide_replies_count == "true" {
   .latest-topic-list .posts-map,
@@ -18,7 +18,7 @@
   }
 }
 
-// * hide or show topic time since last activity on category homepage * //
+// * hide or show topic time since last activity * //
 
 @if $hide_time_since_last_activity == "true" {  
   .topic-last-activity,
@@ -27,7 +27,7 @@
  }
 }
 
-// * hide or show topic stats column in category list on category homepage * //
+// * hide or show topic stats column in category list on homepage * //
 
 @if $hide_category_topic_stats == "true" {
 .category-list .topics {
