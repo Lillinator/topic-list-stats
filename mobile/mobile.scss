@@ -1,0 +1,6 @@
+@if $hide_topic_stats_in_mobile_view == "true" {
+  .category-list-item .category-topic-link .num, 
+  .subcategory-list-item .category-topic-link .num {
+    display: none;
+  }
+}
