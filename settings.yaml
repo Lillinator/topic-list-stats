@@ -114,3 +114,9 @@ hide_category_topic_stats:
   default: false
   description:
     en: "Hide the topic stats column from the category list on the category homepage."
+
+hide_topic_stats_in_mobile_view:
+  type: bool
+  default: false
+  description:
+    en: "Hide the topic stats column from the category homepage in mobile."
