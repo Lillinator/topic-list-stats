@@ -113,17 +113,17 @@ hide_category_topic_stats:
   type: bool
   default: false
   description:
-    en: "Hide the topic stats column from the category list on the category homepage."
+    en: "Hide the topic stats column from the category list on the category homepage in desktop view."
 
 hide_topic_stats_in_mobile_view:
   type: bool
   default: false
   description:
-    en: "Hide the topic stats column from the category homepage in mobile."
+    en: "Hide the topic stats column from the category homepage in mobile view."
 
-hide_badge_notification_in_mobile_view:
+hide_time_since_last_activity_in_mobile_view:
   type: bool
   default: false
   description:
-    en: "Hide the badge notifications from the category homepage in mobile."
+    en: "Hide the time since last activity in topic list filter pages in mobile view."
 
