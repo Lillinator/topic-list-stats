@@ -1,7 +1,7 @@
 // * hide all stats from anon users in both mobile and desktop views * //
 
 @if $hide_all_stats_from_anon == "true" {   
-  .topic-list .topic-item-stats .num.activity ,
+  .topic-list .topic-item-stats .num.activity,
   .topic-list .num.posts-map,
   .topic-list .num.views, 
   .topic-list .views,
