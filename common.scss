@@ -1,0 +1,14 @@
+// * hide all stats from anon users in both mobile and desktop views * //
+
+@if $hide_all_stats_from_anon == "true" {
+  .topic-list .num.views, 
+  .topic-list .views,
+  .topic-list .activity,
+  .topic-last-activity,
+  .category-list .topics,
+  .latest-topic-list .posts-map, 
+  .above-latest-topic-list-item-post-count-outlet {
+    display: none;
+  }
+}
+
