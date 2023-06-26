@@ -1,17 +1,18 @@
 // * hide all stats from anon users in both mobile and desktop views * //
 
 @if $hide_all_stats_from_anon == "true" {   
-  .topic-list .topic-item-stats .num.activity,
-  .topic-list .num.posts-map,
-  .topic-list .num.views, 
-  .topic-list .views,
-  .topic-list .activity,
-  .topic-last-activity,
-  .category-list .topics,
-  .latest-topic-list .posts-map, 
-  .topic-list .posts,
-  .above-latest-topic-list-item-post-count-outlet,
-  .category-list-item>footer, .subcategory-list-item>footer {
+  .anon .topic-list .topic-item-stats .num.activity,
+  .anon .topic-list .num.posts-map,
+  .anon .topic-list .num.views, 
+  .anon .topic-list .views,
+  .anon .topic-list .activity,
+  .anon .topic-last-activity,
+  .anon .category-list .topics,
+  .anon .latest-topic-list .posts-map, 
+  .anon .topic-list .posts,
+  .anon .above-latest-topic-list-item-post-count-outlet,
+  .anon .category-list-item>footer, 
+  .anon .subcategory-list-item>footer {
     display: none;
   }
 }
