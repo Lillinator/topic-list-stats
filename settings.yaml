@@ -10,36 +10,6 @@ hide_topic_list_views_count:
   description:
     en: "Hide the number of topic views column on all topic list filter pages."
 
-hide_replies_count:
-  type: bool
-  default: false
-  description: 
-    en: "Hide the number of replies in the topic stats column on the category homepage."
-
-hide_topic_list_replies_count:
-  type: bool
-  default: false
-  description:
-    en: "Hide the number of replies column on all topic list filter pages."
-
-hide_time_since_last_activity:
-  type: bool
-  default: false
-  description:
-    en: "Hide the time since last activty in the topic stats column on the category homepage."
-
-hide_topic_list_time_since_last_activity:
-  type: bool
-  default: false
-  description:
-    en: "Hide the time since last activty  on all topic list filter pages."
-
-hide_category_topic_stats:
-  type: bool
-  default: false
-  description:
-    en: "Hide the topic stats column from the category list on the category homepage."
-
 topic_views_count_font_size:
   type: enum
   default: ""
@@ -54,7 +24,7 @@ topic_views_count_font_size:
     - 19
     - 20
   description: 
-    en: "Topic views count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font size in pixels (px) of topic views count stats. Leave blank to use current default."
 
 topic_views_count_font_weight:
   type: enum
@@ -63,7 +33,19 @@ topic_views_count_font_weight:
     - normal
     - bold
   description: 
-    en: "Font weight of the topic views count if show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font weight of the topic views count stats. Leave blank to use current default."
+
+hide_replies_count:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the number of replies in the topic stats column on the category homepage."
+
+hide_topic_list_replies_count:
+  type: bool
+  default: false
+  description:
+    en: "Hide the number of replies column on all topic list filter pages."
 
 topic_replies_count_font_size:
   type: enum
@@ -79,7 +61,7 @@ topic_replies_count_font_size:
     - 19
     - 20
   description: 
-    en: "Topic replies count font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font size in pixels (px) of topic replies count stats. Leave blank to use current default."
 
 topic_replies_count_font_weight:
   type: enum
@@ -88,7 +70,19 @@ topic_replies_count_font_weight:
     - normal
     - bold
   description: 
-    en: "Font weight of the topic replies count if show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font weight of the topic replies count stats. Leave blank to use current default."  
+
+hide_time_since_last_activity:
+  type: bool
+  default: false
+  description:
+    en: "Hide the time since last activty in the topic stats column on the category homepage."
+
+hide_topic_list_time_since_last_activity:
+  type: bool
+  default: false
+  description:
+    en: "Hide the time since last activty on all topic list filter pages."
 
 time_since_latest_activity_font_size:
   type: enum
@@ -104,7 +98,7 @@ time_since_latest_activity_font_size:
     - 19
     - 20
   description: 
-    en: "Time since last activity font size in px if above show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font size in pixels (px) of the time since last topic activity stats. Leave blank to use current default."
 
 time_since_latest_activity_font_weight:
   type: enum
@@ -113,5 +107,10 @@ time_since_latest_activity_font_weight:
     - normal
     - bold
   description: 
-    en: "Time since last activity font weight if show topic views count setting is enabled. Leave blank to use current default."
+    en: "Font weight of the time since last topic activity stats. Leave blank to use current default."
 
+hide_category_topic_stats:
+  type: bool
+  default: false
+  description:
+    en: "Hide the topic stats column from the category list on the category homepage."
