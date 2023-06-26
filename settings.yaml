@@ -14,7 +14,7 @@ hide_time_since_last_activity:
   type: bool
   default: false
   description:
-    en: "Hide the time since last activty in the topic stats column on the category homepage and topic list filter pages."
+    en: "Hide the time since last activity in the topic stats column on the category homepage and topic list filter pages."
 
 hide_category_topic_stats:
   type: bool
@@ -26,4 +26,4 @@ hide_all_stats_from_anon:
   type: bool
   default: false
   description:
-    en: "Hide all topic stats from anonymous users in both desktop and mobile views."
+    en: "Hide all topic stats from anonymous users."
