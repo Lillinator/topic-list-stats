@@ -1,11 +1,16 @@
-@if $hide_topic_stats_in_mobile_view == "true" {
-   .topic-list .num.posts-map,
+@if $hide_replies_count == "true" {
+   .topic-list .num.posts-map {
+      display: none;
+   }
+}
+
+@if $hide_time_since_last_activity == "true" {
    .topic-list .topic-item-stats .num.activity {
       display: none;
    }
 }
 
-@if $hide_category_stats_in_mobile_view == "true" {
+@if $hide_category_topic_stats == "true" {
   .category-list-item>footer, .subcategory-list-item>footer {
     display: none;
    }
