@@ -1,6 +1,6 @@
 @if $hide_topic_stats_in_mobile_view == "true" {
    .topic-list .num.posts-map,
-   .topic-list .topic-item-stats .num.activity{
+   .topic-list .topic-item-stats .num.activity {
       display: none;
    }
 }
