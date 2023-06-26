@@ -9,7 +9,9 @@
   .topic-last-activity,
   .category-list .topics,
   .latest-topic-list .posts-map, 
-  .above-latest-topic-list-item-post-count-outlet {
+  .topic-list .posts,
+  .above-latest-topic-list-item-post-count-outlet,
+  .category-list-item>footer, .subcategory-list-item>footer {
     display: none;
   }
 }
