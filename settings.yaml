@@ -2,19 +2,19 @@ hide_topic_views_count:
   type: bool
   default: false
   description:
-    en: "Hide the total number of views in the topic stats column on the category homepage."
+    en: "Hide the total number of views in the topic stats column on the category homepage and topic list filter pages."
 
 hide_replies_count:
   type: bool
   default: false
   description: 
-    en: "Hide the number of replies in the topic stats column on the category homepage."
+    en: "Hide the number of replies in the topic stats column on the category homepage and topic list filter pages."
 
 hide_time_since_last_activity:
   type: bool
   default: false
   description:
-    en: "Hide the time since last activty in the topic stats column on the category homepage."
+    en: "Hide the time since last activty in the topic stats column on the category homepage and topic list filter pages."
 
 hide_category_topic_stats:
   type: bool
