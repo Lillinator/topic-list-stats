@@ -20,19 +20,7 @@ hide_category_topic_stats:
   type: bool
   default: false
   description:
-    en: "Hide the topic stats column from the category list on the category homepage in desktop view."
-
-hide_category_stats_in_mobile_view:
-  type: bool
-  default: false
-  description:
-    en: "Hide the category stats rows from the category homepage in mobile view."
-
-hide_topic_stats_in_mobile_view:
-  type: bool
-  default: false
-  description:
-    en: "Hide the topic stats column from both the category homepage and topic filter list pages in mobile view."
+    en: "Hide the topic stats from the category list on the category homepage."
 
 hide_all_stats_from_anon:
   type: bool
