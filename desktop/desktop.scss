@@ -3,49 +3,28 @@
 // * hide or show topic views count on category homepage * //
 
 @if $hide_topic_views_count == "true" {
-  .above-latest-topic-list-item-post-count-outlet {
-  display: none;
-  }
-}
-
-// * hide or show topic views count on topic filter list pages * //
-
-@if $hide_topic_list_views_count == "true" {
+  .above-latest-topic-list-item-post-count-outlet,
   .topic-list .views {
-      display: none;
+  display: none;
   }
 }
 
 // * hide or show topic replies count on category homepage * //
 
 @if $hide_replies_count == "true" {
-  .latest-topic-list .posts-map {
-  display: none;
-  }
-}
-
-// * hide or show topic replies count on topic filter list pages * //
-
-@if $hide_topic_list_replies_count == "true" {
+  .latest-topic-list .posts-map,
   .topic-list .posts {
-    display: none;
+  display: none;
   }
 }
 
 // * hide or show topic time since last activity on category homepage * //
 
 @if $hide_time_since_last_activity == "true" {  
-  .topic-last-activity {
-  display: none;
- }
-}
-
-// * hide or show topic time since last activity on topic filter list pages * //
-
-@if $hide_topic_list_time_since_last_activity == "true" {
+  .topic-last-activity,
   .topic-list .activity {
   display: none;
-  }
+ }
 }
 
 // * hide or show topic stats column in category list on category homepage * //
@@ -55,51 +34,3 @@
     display: none;
   }
 }
-
-// * formatting the stats * //
-
-// * font size and weight of the topic views count * //
-
-.topic-list .num.views {
-  font-weight: $topic_views_count_font_weight;
-  font-size: #{$topic_views_count_font_size}px;
-}
-
-.above-latest-topic-list-item-post-count-outlet {
-  font-weight: $topic_views_count_font_weight;
-  font-size: #{$topic_views_count_font_size}px;
-//  color: $topic_views_count_font_color;
-}
-
-// * font size and weight of the topic replies count * //
-
-.topic-list .num .badge-posts {
-  font-weight: $topic_replies_count_font_weight;
-  font-size: #{$topic_replies_count_font_size}px;
-}
-
-.latest-topic-list .posts-map, .top-topic-list .posts-map {
-  font-weight: $topic_replies_count_font_weight;
-  font-size: #{$topic_replies_count_font_size}px;
-//  color: $topic_replies_count_font_color;
-//  &:hover {
-//  color: $topic_replies_count_hover_color;
-//  }  
-}
-
-// * font size and weight of the time since last activity * //
-
-.topic-list .num.activity a {
-  font-weight: $time_since_latest_activity_font_weight;
-  font-size: #{$time_since_latest_activity_font_size}px;
-}
-
-.latest-topic-list-item .topic-last-activity a {
-  font-weight: $time_since_latest_activity_font_weight;
-  font-size: #{$time_since_latest_activity_font_size}px;
-//  color: $time_since_latest_activity_font_color;  
-//  &:hover {
-//  color: $time_since_latest_activity_hover_color;
-//  }  
-}
-
