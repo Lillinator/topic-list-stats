@@ -1,6 +1,11 @@
 @if $hide_topic_stats_in_mobile_view == "true" {
-  .category-list-item .category-topic-link .num, 
-  .subcategory-list-item .category-topic-link .num {
-    display: none;
-  }
+   .topic-list .num.posts-map {
+      display: none;
+   }
+}
+
+@if $hide_badge_notification_in_mobile_view == "true" {
+   .topic-post-badges {
+      display: none;
+   }
 }
