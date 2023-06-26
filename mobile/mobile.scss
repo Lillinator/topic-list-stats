@@ -5,7 +5,8 @@
 }
 
 @if $hide_badge_notification_in_mobile_view == "true" {
-   .topic-post-badges {
+   .topic-post-badges,
+   .topic-list .badge-notification {
       display: none;
    }
 }
